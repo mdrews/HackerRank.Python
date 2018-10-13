@@ -1,8 +1,7 @@
+
 def count_substring(string, sub_string):
     result = 0
-    for x in range(len(string)-len(sub_string)+1):
-        if sub_string == string[x:x+len(sub_string)]:
-            result += 1
+    '\n'.join(wrap())
     return result
 
 
